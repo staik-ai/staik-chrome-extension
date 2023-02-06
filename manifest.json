@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "STAIK AI Extension - Powered by ChatGPT",
+  "description": "A simple chrome browser extension that lets you ask questions to ChatGPT.",
+  "version": "1.0",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "https://api.openai.com/"
+  ]
+}
